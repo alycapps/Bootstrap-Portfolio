@@ -13,11 +13,19 @@ body {
     margin: 0 0 20px 0;
     padding: 0;
     height: 60px;
+    font-weight: bold;
 }
 
 #footer {
     background-color: #666666;
     border-top: solid #4aaaa5 10px;
+    padding: 20px 0 0 0;
+}
+
+#footname {
+    margin: auto;
+    font-size: 10px;
+    bottom: 0;
 }
 
 #prof-pic {
