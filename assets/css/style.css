@@ -48,6 +48,8 @@ h1 {
     color: #ffffff; 
     padding: 8px;
     height: 60px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .navbar-brand {
