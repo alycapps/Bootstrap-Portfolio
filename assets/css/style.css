@@ -58,17 +58,26 @@ h1 {
     padding: 20px;
 }
 
-.card-img {
-    width: 200px;
-    height: 150px;
+.card-img-top {
+    height: 10em;
 }
 
 .card-title {
     background-color:#4aaaa5;
-    color: #ffffff; 
+    bottom: 18px;
     width: 100%;
+    text-align: center;
 }
 
-.portpic {
+/* .portpic {
     margin: 0;
+    padding: 0;
+}  */
+
+.card-img-overlay {
+    padding: 0;
+}
+
+.card {
+    border: none;
 }
