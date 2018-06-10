@@ -10,10 +10,10 @@ body {
 .header { 
     background-color: #ffffff;
     border-bottom: solid #cccccc 3px;
-    margin: 0 0 20px 0;
-    padding: 0;
+    margin-bottom: 20px;
     height: 60px;
     font-weight: bold;
+    z-index: 1000;
 }
 
 #footer {
@@ -82,4 +82,13 @@ h1 {
 
 .card {
     border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .deleteme {
+    visibility: hidden;
+    display: none;
+    width: 0;
+    height: 0;
+    }
 }
